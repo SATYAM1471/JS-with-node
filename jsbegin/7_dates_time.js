@@ -30,6 +30,5 @@ let newDate = new Date();
 // console.log(newDate.getMonth()); //9
 
 newDate.toLocaleString('default',{
-    weekday: "long"
-
+    weekday: "long",
 })
