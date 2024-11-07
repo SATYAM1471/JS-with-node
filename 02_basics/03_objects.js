@@ -11,7 +11,7 @@ const JsUser={name:"Satyam",
     [mySym] : "myKey1" /*to use it as a symbol*/,
     "fullname": "Satyam Choudhary",
     age:18,
-    location:"jaipur",
+    location:"Bihar",
     email:"satyam1343@gmail.com",
     isLoggedIn:false,
     lastLoginDays:["Monday","Saturday"]
@@ -23,7 +23,7 @@ const JsUser={name:"Satyam",
 // console.log(JsUser["fullname"]);
 // console.log(JsUser[mySym]);
 
-JsUser.email="satyam@chatgpt.com"
+// JsUser.email="satyam@chatgpt.com"
 // Object.freeze(JsUser)
 // console.log(JsUser)
 

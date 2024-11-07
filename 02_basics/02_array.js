@@ -6,7 +6,7 @@ const dc_heros=["superman","flash","batman"]
 // console.log(marvel_heros);
 // console.log(marvel_heros[3][1]);
 
-// // const allHeros= marvel_heros.concat(dc_heros)
+// const allHeros= marvel_heros.concat(dc_heros)
 // console.log(allHeros);
 //+++++SPREAD OPERATOR+++++++//
 // const all_new_heros=[...marvel_heros,...dc_heros]
@@ -19,13 +19,14 @@ const dc_heros=["superman","flash","batman"]
 // console.log(real_another_array);
 
 
-console.log(Array.isArray("Satyam"));
-console.log(Array.from("Satyam"));
-console.log(Array.from({name:"Satyam"}));  //INTERESTING
+// console.log(Array.isArray("Satyam"));
+// console.log(Array.from("Satyam"));
+// console.log(Array.from({name:"Satyam"}));  //INTERESTING
+// console.log(Object.values({ name: "Satyam" }));
 
 
 let score1=100
 let score2=100
 let score3=100
 
-console.log(Array.of(score1,score2,score3));
+// console.log(Array.of(score1,score2,score3));
