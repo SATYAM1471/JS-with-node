@@ -21,5 +21,18 @@ const JsUser={name:"Satyam",
 // console.log(JsUser.email);
 // console.log(JsUser["email"]);
 // console.log(JsUser["fullname"]);
-console.log(typeof JsUser.mySym);
+// console.log(JsUser[mySym]);
 
+JsUser.email="satyam@chatgpt.com"
+// Object.freeze(JsUser)
+// console.log(JsUser)
+
+JsUser.greeting=function(){
+    console.log("Hello JS user");
+}
+JsUser.greetingTwo=function(){
+    console.log(`Hello JS user,${this.name}`);
+}
+console.log(JsUser.greeting);
+console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());
