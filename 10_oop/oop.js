@@ -38,6 +38,12 @@ const userTwo = new User("hitesh", 11 ,false)
 
 //To prevent this we can use new keyword
 
-console.log(userOne.constructor);
+// `console.log(userOne.constructor);
 // constructor if a property for itself reference
 // console.log(userTwo);
+
+// array is also an object i.e everything in javascript is an object
+
+// even function and string is an object.
+// Javascript act as an protyple inheritence, it means if it does not get the null value from child it will go to parents,grand,grand grand parents
+
